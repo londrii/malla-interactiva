@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Curricular Derecho UDP</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <header>
+        <h1>Malla Curricular Derecho UDP 2023</h1>
+        <p>Facultad de Derecho</p>
+    </header>
+
+    <div id="malla-container">
+        <div class="semestre">
+            <h2>Semestre 1</h2>
+            <div class="curso" data-area="Derecho Privado">Fundamentos Histórico-Sociales del Derecho Privado</div>
+            <div class="curso" data-area="Taller">Taller de Razonamiento Jurídico</div>
+            </div>
+
+        <div class="semestre">
+            <h2>Semestre 2</h2>
+            <div class="curso" data-area="Derecho Público">Derecho Constitucional Orgánico</div>
+            </div>
+
+        </div>
+
+    <div id="leyenda">
+        <h3>Leyenda de Áreas</h3>
+        <div class="leyenda-item"><span class="color-box privado"></span> Derecho Privado</div>
+        <div class="leyenda-item"><span class="color-box publico"></span> Derecho Público</div>
+        <div class="leyenda-item"><span class="color-box penal"></span> Derecho Penal</div>
+        <div class="leyenda-item"><span class="color-box taller"></span> Taller</div>
+        </div>
+
+    <div id="modal" class="hidden">
+        <h3 id="modal-titulo"></h3>
+        <p id="modal-descripcion"></p>
+        <button id="modal-cerrar">Cerrar</button>
+    </div>
+
+    <script src="script.js"></script> </body>
+</html>
